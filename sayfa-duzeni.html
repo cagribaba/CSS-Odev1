@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfa Düzeni</title>
+
+    <style>
+        #sayfa{
+            border-style: solid;
+            border-color: darkblue;
+            width: 1500px;
+            margin: auto; /* margin auto olması sayfayı ortalar */
+            background-color: darkblue;
+        }
+
+        header{
+            border-style: solid;
+            border-color: yellow;
+            width: 1480px;
+            height: 150px;
+            margin: auto;
+            text-align: center;
+            color: yellow;
+            font-size: 60px;
+        }
+        nav{
+            border-style: solid;
+            border-color: yellow;
+            width: 1480px;
+            height: 50px;
+            margin: auto;
+            text-align: center;
+            color: white;
+            font-size: 38px;
+        }
+        article{
+            border-style: solid;
+            border-color: yellow;
+            width: 1480px;
+            min-height: 1080px; /* min-hegiht ile sayfa boyu en az 600px olur içerik eklendikçe 600px geçse bile aşaı doğru genişler */
+            margin: auto;
+            text-align: center;
+            color: white;
+            background-image: url(img/fblogo.jfif);
+            background-size: 100px;
+        }
+        footer{
+            border-style: solid;
+            border-color: yellow;
+            width: 1480px;
+            height: 150px;
+            margin: auto;
+            text-align: center;
+            color: white;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sayfa">
+        <header>
+            FENERBAHÇE <br>
+            HABERLERİ
+        </header>
+
+        <nav>
+            Ana Sayfa | Haberler | Hakkımzıda | İletişim
+        </nav>
+
+        <article>
+            Buraya İçerik Gelecek
+        </article>
+
+        <footer>
+            Burası sayfanın en altı 
+        </footer>
+    </div>
+</body>
+</html>
